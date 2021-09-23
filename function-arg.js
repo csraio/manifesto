@@ -1,7 +1,7 @@
 
 
 
-document.addEventListener("keydown", function(e){
+/*document.addEventListener("keydown", function(e){
   // USE THIS TO DISABLE CONTROL AND ALL FUNCTION KEYS
   // if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
   // THIS WILL ONLY DISABLE CONTROL AND F12
@@ -13,8 +13,8 @@ document.addEventListener("keydown", function(e){
 
 //this is preventing the user from right-clicking on the page. when you right-click, nothing happens. 
 document.addEventListener("contextmenu", function(e){
-  e.preventDefault();
 }, false);
+  e.preventDefault();*/
 
 function fn1() {
     var the_input = document.getElementById("line").value;
@@ -22,7 +22,7 @@ function fn1() {
     if(the_input == "3733" || the_input=="3,733" || the_input=="3.733") {
         alert("you got it correct!");
     }
-}
+} 
 
 
 /*var req = new XMLHttpRequest(); 
